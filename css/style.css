@@ -155,6 +155,18 @@ justify-content: right;
    0% { transform: rotate(0deg); }
    100% { transform: rotate(360deg);}
 }
+/* resume section */
+.Resume-items{
+
+   border-left:3px solid #067106 !important;
+   margin: 10px;
+   background-color: #232323;
+}
+.resume-section1  .div{
+   padding: 10px;
+   text-align: justify;
+   margin-right: 10px;
+}
 
 
 
