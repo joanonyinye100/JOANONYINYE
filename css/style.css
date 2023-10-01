@@ -1,0 +1,162 @@
+ *{
+    box-sizing: border-box;
+    font-family: poppins;
+ }
+ header{
+    background-color: #111 !important;
+    color: white !important;
+ }
+ header nav li a{
+    color: white !important;
+ }
+ header nav ul li{
+    color: white !important;
+ }
+ body{
+    background-color: #111;
+    color: #9f9f9f;
+ }
+ .card{
+    background-color: #292929;
+    box-shadow: #1a1919;
+    color: #9f9f9f;
+ }
+ .about-team{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-section4 .card{
+    padding: 7px;
+ }
+ .about-team img{
+    border-radius: 100%;
+ }
+ button{
+    padding: 10px;
+    border: 1px solid #067106;
+    border-radius: 15px;
+    color: white;
+    
+ }
+ .about-section2 .card:hover{
+    border-bottom: green;
+    text-decoration: underline green;
+ }
+ .blog-section1 h3{
+    color: white;
+ }
+ .blog-section1 h3{
+    font-size: 20px;
+    margin: 3px;
+ }
+ .blog-section1 p{
+    font-size: 15px;
+ }
+ .blog-section1 img{
+    border-radius: 7px;
+    width: 100%;
+ }
+ /* CONTACT SECTION */
+ .contact-section1 input, textarea{
+   background-color: #252424;
+   border: none;
+   margin: 8px;
+   outline: none;
+   padding: 9px;
+   width: 47%;
+   
+ }
+ .subject, textarea{
+    width: 96% !important;
+ }
+ .contact-section1 .contact-bigger{
+    width: 60%;
+ }
+ .contact-section1 .contact-smaller{
+    width: 40%;
+ }
+ /* portfolio section */
+ .portfolio-section1 ul  {
+display: flex;
+justify-content: center;
+ }
+ .portfolio-section1 li{
+    margin: 5px;
+    list-style-type: none;
+ }
+ .portfolio-section1 li a{
+    text-decoration: none;
+    color: white;
+ }
+ .portfolio-section1 li a:hover{
+    text-decoration: underline green;
+    color: green;
+ }
+ .first{
+    color: green !important;
+    text-decoration: underline green;
+ }
+ .moving-icon{
+   position: absolute;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: style;
+    
+ }
+ @keyframes style {
+    0%{left:45%;}
+    100%{left:47%;}
+ }
+ .block{
+   color: #111;
+ }
+ 
+
+.slide-container {
+   transition: transform 0.5s ease;
+background-color: transparent !important;
+display: flex;
+justify-content: right;
+}
+
+.slide-button {
+   padding: 20px 30px;
+   cursor: pointer;
+   display: flex;
+   justify-content: right;
+   position: fixed;
+}
+/* Style for the preloader container */
+/* Styles for the preloader */
+.preloader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 9999; /* Make sure it's above other content */
+}
+
+.loader {
+   border: 4px solid #f3f3f3;
+   border-top: 4px solid gray;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   animation: spin 2s linear infinite; /* Rotation animation */
+}
+
+@keyframes spin {
+   0% { transform: rotate(0deg); }
+   100% { transform: rotate(360deg);}
+}
+
+
+
+
+ 
