@@ -2,11 +2,14 @@
     box-sizing: border-box;
     font-family: poppins;
  }
+ .nav-link{
+   color: #f3f3f3 !important;
+ }
  header{
     background-color: #111 !important;
     color: white !important;
  }
- header nav li a{
+ header nav  ul li a{
     color: white !important;
  }
  header nav ul li{
