@@ -73,17 +73,11 @@
    margin: 8px;
    outline: none;
    padding: 9px;
-   width: 47%;
+   width: 100%;
    
  }
  .subject, textarea{
-    width: 96% !important;
- }
- .contact-section1 .contact-bigger{
-    width: 60%;
- }
- .contact-section1 .contact-smaller{
-    width: 40%;
+    width: 100% !important;
  }
  /* portfolio section */
  .portfolio-section1 ul  {
@@ -241,6 +235,9 @@ iframe {
 
 .image-container:hover .overlay {
    opacity: 1; 
+}
+.fa-line{
+border-right: 3px solid #232323;
 }
 
 
