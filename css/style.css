@@ -22,7 +22,7 @@
     color: #9f9f9f;
  }
  .card{
-    background-color: #232323;
+    background-color: #0d0c0c;
     box-shadow: #1a1919;
     color: #9f9f9f;
  }
@@ -68,7 +68,7 @@
  }
  /* CONTACT SECTION */
  .contact-section1 input, textarea{
-   background-color: #252424;
+   background-color: #0d0c0c;
    border: none;
    margin: 8px;
    outline: none;
@@ -163,7 +163,7 @@ justify-content: right;
 
    border-left:3px solid #067106 !important;
    margin: 10px;
-   background-color: #232323;
+   background-color: #0d0c0c;
 }
 .resume-section1  .div{
    padding: 10px;
