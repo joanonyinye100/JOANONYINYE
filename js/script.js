@@ -28,6 +28,7 @@ function typeWriter() {
   if (diff < txt[0].length) {
     dis.innerHTML += txt[0].charAt(diff);
     diff++;
+    setTimeout(5)
   } else {
     clearInterval(interv);
     txt.push(txt.shift());
