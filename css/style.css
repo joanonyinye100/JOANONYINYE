@@ -42,8 +42,8 @@
     
  }
  .about-section2 .card:hover{
-    border-bottom: green;
-    text-decoration: underline green;
+    border-bottom:3px solid #067106;
+    
  }
  .blog-section1 h3{
     color: white;
