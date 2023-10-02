@@ -177,6 +177,9 @@ justify-content: right;
    text-align: justify;
    margin-right: 10px;
 }
+.progress{
+   height: 10px;
+}
 h1{
    font-weight: bold;
 }
