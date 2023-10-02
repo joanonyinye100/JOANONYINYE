@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
 
 let diff = 0;
 const txt = ["Designer", "Developer", "Freelancer"];
-const speed = 10;
+const speed = -1000;
 let interv;
 
 function typeWriter() {
@@ -39,7 +39,7 @@ function typeWriter() {
 }
 
 function startTyping() {
-  interv = setInterval(typeWriter, 1000);
+  interv = setInterval(typeWriter, 200);
 }
 
 startTyping();
