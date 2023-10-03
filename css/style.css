@@ -3,20 +3,21 @@
     font-family: poppins;
  }
  .nav-link{
-   color: #f3f3f3 !important;
+   color:#14A44D;
  }
  header{
     background-color: #111 !important;
     color: white !important;
     margin-bottom: 10px;
     margin-top: auto;
+    color: #14A44D;
+    
  }
- header nav  ul li a{
-    color: white !important;
+ .nav-link:hover{
+   color: white !important;
+   text-decoration: underline;
  }
- header nav ul li{
-    color: white !important;
- }
+ 
  body{
     background-color: #111;
     color: #9f9f9f;
@@ -101,8 +102,8 @@ justify-content: center;
     color: white;
  }
  .portfolio-section1 li a:hover{
-    text-decoration: underline green;
-    color: green;
+    text-decoration: underline #14A44D;
+    color: #14A44D;
  }
  .first{
     color: green !important;
@@ -246,6 +247,10 @@ h1{
    display: flex;
    margin: 0;
    padding: 0;
+}
+.name{
+   margin-top: 10% !important;
+   
 }
 
 
