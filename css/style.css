@@ -76,6 +76,13 @@
    width: 100%;
    
  }
+ .contact-bigger{
+   width: 80%;
+   margin: 4px;
+ }
+ .contact-smaller{
+   width: 20%;
+ }
  .subject, textarea{
     width: 100% !important;
  }
@@ -186,10 +193,7 @@ h1{
    pointer-events: none;
 }
 
-iframe {
-   width: 100% !important;
-  height:100% !important;
-}
+
 
 .image-container {
    position: relative;
@@ -236,8 +240,11 @@ iframe {
 .image-container:hover .overlay {
    opacity: 1; 
 }
-.fa-line{
-border-right: 3px solid #232323;
+
+.together{
+   display: flex;
+   margin: 0;
+   padding: 0;
 }
 
 
