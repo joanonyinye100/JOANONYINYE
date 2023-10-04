@@ -4,6 +4,8 @@ function slideToHomePage() {
     setTimeout(() => {
         window.location.href = 'index.html'; 
     }, 500); 
+
+    
 }
 
 
@@ -12,6 +14,8 @@ function slideToHomePage() {
 window.addEventListener("load", function () {
     const preloader = document.querySelector(".preloader");
     preloader.classList.add("preload-finish");
+
+    
 });
 
 
