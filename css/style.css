@@ -235,7 +235,7 @@ h1{
 .text p{
    font-size: 20px;
    font-weight: bold;
-   color: green !important;
+   color: white !important;
 }
 
 
@@ -249,9 +249,11 @@ h1{
    padding: 0;
 }
 .name{
-   margin-top: 10% !important;
+   margin-top: 15% !important;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 }
+
 
 
 
