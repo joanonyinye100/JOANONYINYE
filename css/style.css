@@ -3,16 +3,29 @@
     font-family: poppins;
  }
  .nav-link{
-   color:#14A44D;
+   color: white !important;
  }
  header{
     background-color: #111 !important;
     color: white !important;
     margin-bottom: 10px;
     margin-top: auto;
-    color: #14A44D;
-    
+    color: white !important;
+    z-index: 9999;
  }
+
+ video{
+   z-index: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+
+ .bio-info, .link{
+   z-index: 8999574565 !important;
+   position: relative;
+ }
+
  .nav-link:hover{
    color: white !important;
    text-decoration: underline;
@@ -21,6 +34,7 @@
  body{
     background-color: #111;
     color: #9f9f9f;
+    width: 100%;
  }
  .card{
     background-color: #0d0c0c;
