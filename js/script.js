@@ -10,7 +10,7 @@ function slideToHomePage() {
 
 
 
-// JavaScript to remove the preloader when the page is fully loaded
+
 window.addEventListener("load", function () {
     const preloader = document.querySelector(".preloader");
     preloader.classList.add("preload-finish");
